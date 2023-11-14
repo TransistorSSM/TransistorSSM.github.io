@@ -7,6 +7,7 @@
     * Parasitic Capacitances
     * Parasitic Inductances
     * Parasitic Resistance
+  * De-embedding Parasitics
   * Intrinsic Parameter Extraction
     * Direct Extraction
     * Optimization
