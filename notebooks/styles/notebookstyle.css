@@ -1,0 +1,181 @@
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap" rel="stylesheet">
+<style>
+
+@font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+}
+
+div.cell { /* set cell width */
+    width: 950px;
+}
+
+div #notebook { /* centre the content */
+    background: #fff; /* white background for content */
+    width: 1200px;
+    margin: auto;
+    padding-left: 0em;
+}
+
+#notebook li { /* More space between bullet points */
+    margin-top:0.8em;
+}
+
+/* draw border around running cells */
+div.cell.border-box-sizing.code_cell.running {
+    border: 1px solid #111;
+}
+
+/* Put a solid color box around each cell and its output, visually linking them*/
+div.cell.code_cell {
+    background-color: rgb(256,256,256);
+    border-radius: 0px;
+    padding: 0.5em;
+    margin-left:1em;
+    margin-top: 1em;
+}
+
+/**
+basic cell formatting
+*/
+div.text_cell_render{
+    line-height: 150%;
+    font-size: 120%;
+    font-weight: 400;
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/**
+formatting for header cells
+*/
+.text_cell_render h1 {
+    font-family: 'Raleway', sans-serif;
+    font-style:regular;
+    font-weight: 400;
+    font-size: 36pt;
+    text-align: center;
+    line-height: 100%;
+    color: rgb(0,51,102);
+    margin-bottom: 1.0em;
+    margin-top: 1.0em;
+    display: block;
+}
+
+#Table-of-Contents {
+    font-size: 24pt;
+    text-align: left;
+}
+
+.text_cell_render h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 24pt;
+    line-height: 100%;
+    margin-bottom: 0.6em;
+    margin-top: 0.8em;
+    color: rgb(0,51,102);
+    display: block;
+}
+
+.text_cell_render h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 20pt;
+    line-height: 100%;
+    margin-bottom: 0.4em;
+    margin-top: 0.7em;
+    color: rgb(0,51,102);
+}
+
+.text_cell_render h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18pt;
+    line-height: 100%;
+    margin-bottom: 0.4em;
+    margin-top: 0.7em;
+    color: rgb(0,51,102);
+}
+
+.text_cell_render h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16pt;
+    line-height: 100%;
+    margin-bottom: 0.4em;
+    margin-top: 0.7em;
+    color: rgb(0,51,102);
+    font-style: normal;
+}
+
+.text_cell_render p, ol, ul {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+    line-height: 120%;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.copyright {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 9pt;
+    line-height: 100%;
+    color: grey;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+
+.notice {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 8pt;
+    line-height: 100%;
+    color: rgb(0, 0, 0);
+    margin-bottom: 14px;
+    margin-top: 14px;
+}
+
+/**
+configure code font
+*/
+code {
+    font-family: 'Courier Prime', monospace;
+    font-size: 90%;
+}
+
+.cm-s-ipython.language-python {
+    font-size: 90%;
+}
+
+.alert-box {
+    padding:10px 10px 10px 36px;
+    margin:5px;
+}
+
+.success {
+    color:#666600;
+    background:rgb(240,242,229);
+}
+
+.wikitable {
+    /* background-color: #f8f9fa; */
+    color: #202122;
+    margin: 1em 0;
+    border: 1px solid #a2a9b1;
+    border-collapse:collapse
+}
+
+.wikitable > tr > th, .wikitable > tr > td, .wikitable > * > tr > th, .wikitable > * > tr > td {
+    border: 1px solid #a2a9b1;
+    padding:0.2em 0.4em;
+    font-size: 120%;
+}
+
+</style>
