@@ -2,3 +2,13 @@ title: Small Signal and Noise Modeling
 
 show_downloads : true 
 theme: jekyll-theme-minimal
+
+output: 
+  html_document:
+    toc : yes 
+    toc_depth: 2
+    number_sections: yes 
+    toc_float : 
+       collapsed : no 
+       smooth_scroll : yes 
+    
