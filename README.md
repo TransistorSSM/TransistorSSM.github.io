@@ -7,7 +7,7 @@
     * Parasitic Capacitances
     * Parasitic Inductances
     * Parasitic Resistance
-  * De-embedding Parasitics
+  * [De-embedding Parasitics](SmallSignalModelling/02_De_Embedding_Parasitics/De_embedding.md)
   * Intrinsic Parameter Extraction
     * Direct Extraction
     * Optimization
