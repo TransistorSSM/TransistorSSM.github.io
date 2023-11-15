@@ -1,5 +1,5 @@
 format: jb-book
-root: solving_pde_mooc/notebooks/01_Introduction/01_00_Preface
+root: TranssitorSSM
 parts:
 - caption: Introduction
   numbered: true
