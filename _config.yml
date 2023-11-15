@@ -1,7 +1,7 @@
 title: Small Signal and Noise Modeling 
 author: B. Gabritchidze
 logo: Figures/logo.png
-show_dowloads : True 
+show_dowloads : False 
 theme: jekyll-theme-minimal
 
 # Force re-execution of notebooks on each build.
