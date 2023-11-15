@@ -22,5 +22,19 @@ parse:
     # - smartquotes
     - substitution
 
+bibtex_bibfiles:
+    - references.bib
 
+sphinx:
+  config:
+    bibtex_reference_style: unsrt
+
+# Define the name of the latex output file for PDF builds
+latex:
+  latex_documents:
+    targetname: book.tex
+
+sphinx:
+  config:
+    numfig_secnum_depth: 0
   
