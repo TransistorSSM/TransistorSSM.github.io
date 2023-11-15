@@ -1,3 +1,36 @@
+---
+jupytext:
+  formats: ipynb,md:myst
+  notebook_metadata_filter: toc
+  text_representation:
+    extension: .md
+    format_name: myst
+    format_version: 0.13
+    jupytext_version: 1.10.3
+kernelspec:
+  display_name: Python 3 (ipykernel)
+  language: python
+  name: python3
+toc:
+  base_numbering: 1
+  nav_menu: {}
+  number_sections: true
+  sideBar: true
+  skip_h1_title: true
+  title_cell: Table of Contents
+  title_sidebar: Contents
+  toc_cell: true
+  toc_position: {}
+  toc_section_display: true
+  toc_window_display: false
+---
+
+<div class="copyright" property="vk:rights">&copy;
+  <span property="vk:dateCopyrighted">2020</span>
+  <span property="vk:publisher">B. Knaepen & Y. Velizhanina</span>
+</div>
+
+
 # De-Embedding Parasitics
 
 <span style="font-family:'Times New Roman'">
@@ -26,13 +59,13 @@ Once the parasitics have been removed we get access to the intrinsic device. Wor
 If the more complex 20-element model is used then $Y_{pc}$ has to be modified to include the device-finger parasitics as:
 </div>
 <div style="font-size:14pt;">    
-'$
+$
 Y_{pc} = j\omega
 \begin{bmatrix}
  (C_{pg} + C_{pgi}) &  ( C_{pgd} + C_{gdi} ) \\
 ( C_{pgd} + C_{gdi} ) &  (C_{pd} + C_{pdi})
 \end{bmatrix}
-$'
+$
 
         
 </div>
