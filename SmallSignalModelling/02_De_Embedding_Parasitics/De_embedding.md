@@ -1,29 +1,4 @@
----
-jupytext:
-  formats: ipynb,md:myst
-  notebook_metadata_filter: toc
-  text_representation:
-    extension: .md
-    format_name: myst
-    format_version: 0.13
-    jupytext_version: 1.10.3
-kernelspec:
-  display_name: Python 3 (ipykernel)
-  language: python
-  name: python3
-toc:
-  base_numbering: 3
-  nav_menu: {}
-  number_sections: true
-  sideBar: true
-  skip_h1_title: true
-  title_cell: Table of Contents
-  title_sidebar: Contents
-  toc_cell: true
-  toc_position: {}
-  toc_section_display:False
-  toc_window_display: false
----
+
 
 
 # De-Embedding Parasitics
