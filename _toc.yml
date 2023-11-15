@@ -4,29 +4,45 @@ parts:
 - caption: Introduction
   numbered: true
   chapters:
-  - file: solving_pde_mooc/notebooks/01_Introduction/01_01_ToolkitSetup
-  - file: solving_pde_mooc/notebooks/01_Introduction/01_02_TaylorExpansion
-- caption: Time integration
+  - file: TransistorSSM/01_Introduction/01_01_Motivation
+  - file: TransistorSSM/01_Introduction/01_02_Installation
+  
+- caption: Small Signal Modeling
   numbered: true
   chapters:
-  - file: solving_pde_mooc/notebooks/02_TimeIntegration/02_01_EulerMethod
-  - file: solving_pde_mooc/notebooks/02_TimeIntegration/02_02_RungeKutta
-- caption: Finite differences
+  - file: TransistorSSM/02_SmallSignalModeling/02_01_Extrinsic_Parameter_Extraction
+  - file: TransistorSSM/02_SmallSignalModeling/02_02_De-embedding_Parasitics 
+  - file: TransistorSSM/02_SmallSignalMmodeling/02_03_Intrinsic_Parameter_Extraction
+  section: 
+  -file: TransistorSSM/02_SmallSignalModeling/02_01_Extrinsic_Parameter_Extraction/Parasitic_Capacitances
+  -file: TransistorSSM/02_SmallSignalModeling/02_01_Extrinsic_Parameter_Extraction/Parasitic_Inductances
+  -file: TransistorSSM/02_SmallSignalModeling/02_01_Extrinsic_Parameter_Extraction/Parasitic_Resistances
+
+  section:
+  - file: TransistorSSM/02_SmallSignalMmodeling/02_03_Intrinsic_Parameter_Extraction\Direct_Extraction
+  - file: TransistorSSM/02_SmallSignalMmodeling/02_03_Intrinsic_Parameter_Extraction\Optimization
+  - file: TransistorSSM/02_SmallSignalMmodeling/02_03_Intrinsic_Parameter_Extraction\Tuning
+  
+  
+- caption: Noise Modeling
   numbered: true
   chapters:
-  - file: solving_pde_mooc/notebooks/03_FiniteDifferences/03_01_FirstOrderDerivative_and_Slicing
-  - file: solving_pde_mooc/notebooks/03_FiniteDifferences/03_02_HigherOrderDerivative_and_Functions
-  - file: solving_pde_mooc/notebooks/03_FiniteDifferences/03_03_BoundaryValueProblems
-- caption: Partial differential equations
+  - file: TransistorSSM/03_NoiseModeling/03_01_Pospieszalski_Noise_Model
+  - file: TransistorSSM/03_NoiseModeling/03_FiniteDifferences/03_02_Fukui_Noise_Model
+  
+- caption: Plotting
   numbered: true
   chapters:
-  - file: solving_pde_mooc/notebooks/04_PartialDifferentialEquations/04_01_Advection
-  - file: solving_pde_mooc/notebooks/04_PartialDifferentialEquations/04_02_StabilityAnalysis
-  - file: solving_pde_mooc/notebooks/04_PartialDifferentialEquations/04_03_Diffusion_Explicit
-  - file: solving_pde_mooc/notebooks/04_PartialDifferentialEquations/04_04_Diffusion_Implicit
-- caption: Iterative methods
+  - file: TransistorSSM/04_Plotting/04_01_S-Parameter Plots
+  - file: TransistorSSM/04_Plotting/04_02_Noise Plots
+  
+- caption: Notes
   numbered: true
   chapters:
-  - file: solving_pde_mooc/notebooks/05_IterativeMethods/05_01_Iteration_and_2D
-  - file: solving_pde_mooc/notebooks/05_IterativeMethods/05_02_Conjugate_Gradient
-  - file: solving_pde_mooc/notebooks/05_IterativeMethods/05_03_Boosting_Python
+  - file: TransistorSSM/Notes/Notes
+  
+- caption : Citation
+  numbered : False 
+  chapters : 
+   - file : TranssistorSSM/Citation
+
