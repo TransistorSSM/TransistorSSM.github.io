@@ -12,7 +12,7 @@ kernelspec:
   language: python
   name: python3
 toc:
-  base_numbering: 1
+  base_numbering: 3
   nav_menu: {}
   number_sections: true
   sideBar: true
@@ -21,14 +21,9 @@ toc:
   title_sidebar: Contents
   toc_cell: true
   toc_position: {}
-  toc_section_display: true
+  toc_section_display:False
   toc_window_display: false
 ---
-
-<div class="copyright" property="vk:rights">&copy;
-  <span property="vk:dateCopyrighted">2020</span>
-  <span property="vk:publisher">B. Knaepen & Y. Velizhanina</span>
-</div>
 
 
 # De-Embedding Parasitics
