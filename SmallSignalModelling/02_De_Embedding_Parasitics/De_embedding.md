@@ -29,13 +29,14 @@ Once the parasitics have been removed we get access to the intrinsic device. Wor
 If the more complex 20-element model is used then $Y_{pc}$ has to be modified to include the device-finger parasitics as:
 </div>
 <div style="font-size:14pt;">    
+ '
 $
 Y_{pc} = j\omega
 \begin{bmatrix}
  (C_{pg} + C_{pgi}) &  ( C_{pgd} + C_{gdi} ) \\
 ( C_{pgd} + C_{gdi} ) &  (C_{pd} + C_{pdi})
 \end{bmatrix}
-$
+$ '
 
         
 </div>
