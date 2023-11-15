@@ -2,3 +2,12 @@ title: Small Signal and Noise Modeling
 
 show_dowloads : True 
 theme: jekyll-theme-minimal
+
+# Force re-execution of notebooks on each build.
+# See https://jupyterbook.org/content/execute.html
+execute:
+  execute_notebooks: cache
+  allow_errors: true
+  timeout: 300
+
+  
