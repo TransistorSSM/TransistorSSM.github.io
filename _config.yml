@@ -1,5 +1,5 @@
 title: Small Signal and Noise Modeling 
-
+author: B. Gabritchidze
 show_dowloads : True 
 theme: jekyll-theme-minimal
 
@@ -9,5 +9,18 @@ execute:
   execute_notebooks: cache
   allow_errors: true
   timeout: 300
+
+parse:
+  myst_enable_extensions:  # default extensions to enable in the myst parser. See https://myst-parser.readthedocs.io/en/latest/using/syntax-optional.html
+    - colon_fence
+    - amsmath
+    - dollarmath
+    # - html_admonition
+    - html_image
+    - linkify
+    # - replacements
+    # - smartquotes
+    - substitution
+
 
   
